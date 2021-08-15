@@ -18,17 +18,12 @@ a {
     color: #000; 
     border-width: 1;
     border-color: #cdcdcd;
-    border-style: solid; /*
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;*/
+    border-style: solid;  
     padding: 25px 25px 25px 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 30%;
-    display: block;
+    margin: 8px 8px 8px 8px; 
+    width: 25%; 
     border-radius: 5px; 
+    float: left;
 }
 
 .contenedor{
@@ -40,4 +35,9 @@ a {
     background-color: #fff;
     padding: 8px 8px 8px 8px;
     border-radius: 5px; 
+    overflow: auto;
+}
+
+.section {
+    width: 100%;
 }
