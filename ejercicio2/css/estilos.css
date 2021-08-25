@@ -33,6 +33,11 @@ body {
     height: 310px;
 }
 
+.poster1{
+    width: 100%; 
+    height: auto;
+}
+
 .menu{ 
     padding: 1px 15px 1px 15px;
     background-color: #363636;
