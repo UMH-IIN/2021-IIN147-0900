@@ -1,0 +1,40 @@
+.body {
+     
+    font-family:Arial, Helvetica, Sans-serif;
+    background-color: #ECEFF1;
+     }
+       .contenedor{
+         width: 85%;
+         border-color: white;
+         margin: auto;
+         overflow: auto;
+         color: white;
+         border-radius: 10px;
+        }
+        .menu {
+         fill: 1px  15px 15px  1px ;
+         background-color: #363636; 
+         color: white;
+       }
+        .banner {
+         width: 100%;
+         height: auto;
+        }
+        .seccion{
+          fill: 5px 5px 5px 5px ;  
+          margin: 5px 5px 5px 5px ;
+          border-color: #e0e0e0;
+          background-color: #f5f5f5;
+          padding: auto;
+        }
+        .item {
+         margin: 8px 8px 8px 8px ;
+         width: 220px;
+         height: 310px;
+         border-radius: 5px;
+         float: left;
+        }
+        .poster{
+         width: 220px;
+         height: 310px;
+        }
