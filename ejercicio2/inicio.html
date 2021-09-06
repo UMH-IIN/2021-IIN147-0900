@@ -19,7 +19,11 @@
                         <ul class="navbar-nav"> 
                             <li><a class="nav-link" href="#">Noticias</a></li>
                             <li><a class="nav-link" href="#">Cartelera</a></li>
-                            <li><a class="nav-link" href="#">Iniciar Sesion</a></li>
+                            <li>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vtn-login">
+                                    Mostrar modal
+                                </button>
+                            </li>
                             <li><a class="nav-link" href="html/registro.html">Registro</a></li>
                         </ul> 
                     </div>
@@ -159,5 +163,37 @@
         
         </div>
 
+        <!-- ventana modal -->
+        <div class="modal" id="vtn-login" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-tittle">Iniciar sesion</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row mt-3 mb-3">
+                            <div class="col col-4 ">
+                                <label class="form-label">Usuario</label>
+                            </div>
+                            <div class="col col-8">
+                                <input type="mail" class="form-control" placeholder="Ingrese un usuario">
+                            </div>
+                        </div> 
+                        <div class="row mt-3 mb-3">
+                            <div class="col col-4 ">
+                                <label class="form-label">Contrasena</label>
+                            </div>
+                            <div class="col col-8">
+                                <input type="password" class="form-control" placeholder="Contrasena">
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="modal-footer"> 
+                        <button class="btn btn-success">Ingresar</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
     </body>
 </html>
